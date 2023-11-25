@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Poppins:wght@200&display=swap');
+
+body{
+    background-color: #ACC0A0;
+}
+.logo {
+    width: 90px;
+}
+#logo_link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-self: center;
+    align-self: center;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: left;
+    color:#98c785;
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo', 'Verdana', 'Ariel';
+    font-size: 23px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header {
+    background-color:rgba(0,0,0,.5);
+    color: rgba(0,0,0,.5);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #DDD6CA;
+    color:#6B925A;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+#bannerphoto {
+    width: 100%;
+}
+#banner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 55% 45%;
+    margin-top: -115px;
+    /* padding-bottom: 75px; */
+}
+#banner-image{
+    grid-column: 1/6;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#banner-box{
+    text-align: center;
+}
+.banner-msg {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    align-self: center;
+    padding-left: 10px;
+    font-size: 30px;
+    color:rgba(255, 255, 255, 0.838);
+    padding-left: 100px;
+}
+.banner-msg, h4 {
+    text-align: center;
+}
+.contact{
+    background-color: #6B925A;
+    color:white; 
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.contact:hover{
+    background-color: #DDD6CA;
+    color: #192813;
+    font-weight: bold;
+}
+
+
+
+
+.about-me{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    padding-bottom: 175px;
+    padding-top: 175px;
+    background-color: #DDD6CA;
+    color: #2a4320;
+    font-family: 'Nanum Myeongjo', 'Verdana', 'Ariel';
+}
+.teacher{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.hello{
+    font-family: 'Nanum Myeongjo', 'Verdana', 'Ariel';
+}
+#about-me-description{
+    width: 600px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+main{
+    background-color: #ACC0A0;
+}
+
+#questions{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 25% 25%;
+    align-content: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #22371a;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1{
+    width: 90%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: 'Nanum Myeongjo', 'Verdana', 'Ariel';
+    font-weight: bold;
+
+}
+.Q1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #DDD6CA;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+.Q2{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #DDD6CA;
+    padding-bottom: 60px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding-left: 20px;
+    padding-right: 30px
+    
+
+
+}
+.Q3{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: #DDD6CA;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+.sign-up-link{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+    width: 99.9%;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 30px;
+}
+.signup{
+    grid-column: 4/5;
+    align-content: center;
+    text-align: center;
+    background-color: #5b3e35;
+    color: #e6dfd1; 
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.signup:hover{
+    background-color:#6B925A;
+    color:white;
+}
+
+
+footer {
+    background-color: #422d26;
+    color:#DDD6CA;
+    padding:25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color:#DDD6CA;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#DDD6CA;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
