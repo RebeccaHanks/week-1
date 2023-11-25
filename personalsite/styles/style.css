@@ -109,6 +109,8 @@ nav a:hover {
 .teacher{
     grid-column: 2/3;
     grid-row: 1/2;
+    box-shadow: 5px 5px 10px #6f7364;
+
 }
 .hello{
     font-family: 'Nanum Myeongjo', 'Verdana', 'Ariel';
