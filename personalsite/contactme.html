@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me Page</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+
 </head>
 <body>
     <div id="'content">
@@ -22,46 +24,60 @@
     <div id="contact-me">
         <img id="contactme-img1" src="images/violinplaying.jpg" alt="fingers on violin">
         <img id="contactme-img2" src="images/orchestra2.jpg" alt="fingers on violin">
-        <h1>Thanks for stopping by! Reach out, and let's talk!</h1>
 
     </div>
     <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
-        <ul>
-            <li>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name" />
-            </li>
-            <li>
-              <label for="mail">Email:</label>
-              <input type="email" id="mail" name="user_email" />
-            </li>
-            <li>
-              <label for="msg">Message:</label>
-              <textarea id="msg" name="user_message"></textarea>
-            </li>
-          </ul>
-          <li class="button">
-            <button type="submit">Send your message</button>
-          </li>
-    </form>
-    <footer>
-        <p>Violin Lessons &copy; 2023 - Rebecca Hanks</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="contactme.html">Contact Me</a></p>
-        <div class="social">
-            <a href="https//facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-    </footer>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="lname">Phone Number</label>
+          <input type="text" id="number" name="phone#" placeholder="Your phone number..">
+
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="country">State</label>
+          <select id="country" name="state">
+            <option value="usa">Arizona</option>
+            <option value="usa">California</option>
+            <option value="usa">Idaho</option>
+            <option value="usa">Oregon</option>
+            <option value="usa">Utah</option>
+
+
+          </select>
+      
+          <label for="subject">Tell me about you!</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <h1>Thanks for stopping by! Reach out, and let's talk!</h1>
 </main>
+<footer>
+    <p>Violin Lessons &copy; 2023 - Rebecca Hanks</p>
+    <p><a href="site-plan.html">Site Plan</a></p>
+    <p><a href="contactme.html">Contact Me</a></p>
+    <div class="social">
+        <a href="https//facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
 <script>
     // get the feedback div element so we can do something with it.
     const feedbackElement = document.getElementById('feedback');
