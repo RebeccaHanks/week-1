@@ -244,6 +244,145 @@ footer .social img {
 
 
 
+
+/* SIGN UP CHILD PAGE CSS */
+
+#lesson-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#lesson-photo{
+    grid-column: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.lesson-tittle{
+    grid-column: 2/3;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+    background-color: #5b3e35;
+    color:rgba(255, 255, 255, 0.838); 
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo';
+    font-size: 30px;
+    padding: 15px 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+#lesson-types{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 70px;
+    padding-bottom: 45px;
+    background-color: #DDD6CA;
+}
+#lesson-photo1{
+    grid-column: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#lesson-photo2{
+    grid-column: 4/5;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.private1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    background-color: #5b3e35;
+    color: #e6dfd1; 
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+.private1:hover{
+    background-color:#6B925A;
+    color:white;
+}
+.private2{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    text-align: center;
+    background-color: #5b3e35;
+    color: #e6dfd1; 
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.private2:hover{
+    background-color:#6B925A;
+    color:white;
+}
+
+#prices-guide{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-top: 150px;
+}
+.price {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    margin:auto;
+    background-color: #5b3e35;
+    color: #e6dfd1; 
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.info{
+    width: 300px;
+    grid-column: 4/5;
+    text-align: center;
+    margin: auto;
+    font-family:'Nanum Myeongjo';
+    font-size: 22px;
+    color:#2a4320;
+    font-weight: bold;
+
+}
+.guide{
+    grid-column: 6/7;
+    grid-row: 1/2;
+    text-align: center;
+    margin:auto;
+    background-color: #5b3e35;
+    color: #e6dfd1; 
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CONTACT ME PAGE */
 
 #feedback{
