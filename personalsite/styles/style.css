@@ -58,6 +58,8 @@ nav a:hover {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 55% 45%;
     margin-top: -115px;
+    /* background-color: #DDD6CA; */
+    z-index: 1;
     /* padding-bottom: 75px; */
 }
 #banner-image{
@@ -303,10 +305,10 @@ footer .social img {
     border-radius: 5px;
 
 }
-.private1:hover{
+/* .private1:hover{
     background-color:#6B925A;
     color:white;
-}
+} */
 .private2{
     grid-column: 4/5;
     grid-row: 2/3;
@@ -320,10 +322,10 @@ footer .social img {
     margin-top: 50px;
     border-radius: 5px;
 }
-.private2:hover{
+/* .private2:hover{
     background-color:#6B925A;
     color:white;
-}
+} */
 
 #prices-guide{
     display: grid;
